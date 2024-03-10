@@ -4,6 +4,7 @@ import '../styles/global.css'
 import '../styles/home/explore.css'
 import '../styles/footer.css'
 import '../styles/home/responsive_home.css'
+import Footer from '../components/footer'
 function HomePage() {
     return (
         <>
@@ -51,9 +52,7 @@ function HomePage() {
                 </div>
                 </div>
             </section>
-            <footer>
-                <p>@codeexplorer</p>
-            </footer>
+            <Footer/>
         </>
     )
 }

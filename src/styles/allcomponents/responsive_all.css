@@ -1,0 +1,29 @@
+@media screen and (min-width:765px) {
+    .about-card h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .category{
+        display: none;
+    }
+    .left-sidebar{
+        display: none;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+    .card-component{
+        width: 100%;
+    }
+    .container-all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,118 @@
+.container-all{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+}
+.left-sidebar{
+    height: 100%;
+    width: 20%;
+    margin: 2.5rem 1rem;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 0 rgba(131, 130, 130, 0.2);
+}
+.main-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-component{
+    width: 100%;
+    height: 100%;
+    margin: 2.5rem 0;
+    box-shadow: 0px 0px 20px 0 rgba(131, 130, 130, 1.25);
+    border-radius: 12px;
+}
+
+.card-component img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.about-card h1{
+    font-size: 40px;
+    color: rgba(81, 79, 79, 0.964);
+    cursor: pointer;
+}
+.date-time{
+    font-size: 10px;
+    color: rgba(118, 118, 118, 0.964);
+}
+.creator{
+    font-size: 15px;
+    margin-top: 1rem;
+    color: rgba(81, 79, 79, 0.964);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.date{
+    width: 80%;
+    height: 2rem;
+    border-radius: 12px;
+    margin: 0.5rem 0;
+    border: none;
+}
+form button{
+    align-items: center;
+    width: 40%;
+    background-color: black;
+    color: rgba(241, 241, 241, 0.964);
+    height: 2.5rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+.search{
+    margin:  1rem 0;
+    height: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(188, 188, 188, 0.964);
+    padding-left:1rem;
+}
+
+.category{
+    height: 100%;
+    width: 20%;
+    margin: 2.5rem 1rem;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 0 rgba(131, 130, 130, 0.2);
+}
+.selected-categories{
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: fit-content;
+    width: fit-content;
+
+}
+.category p{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    align-items:center ;
+    gap:0.5rem;
+    border-radius: 12px;
+}
+.cross{
+    font-weight: bold;
+    cursor: pointer;
+}
