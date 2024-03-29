@@ -1,0 +1,17 @@
+.design{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    height: fit-content;
+    width: fit-content;
+    padding: 2.5rem;
+}
+.container-design{
+    display: flex;
+    gap: 2rem;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    height: fit-content;
+}

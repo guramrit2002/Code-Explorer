@@ -1,0 +1,46 @@
+.single-component{
+    display: flex;
+    width: 100%;
+    max-height:  fit-content;
+    min-height: 85vh ;
+}
+.inner{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2.5rem;
+    text-align: center;
+    background-color: rgb(40, 44, 46);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 5rem 0;
+    height: fit-content;
+}
+.sidebar{
+    display: flex;
+    width: fit-content;
+    position: sticky;
+    top: 0;
+    height: fit-content;
+}
+.main{
+    display: flex;
+    width: inherit;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1.2rem;
+    font-size: 24px;
+}
+.sidebar a.active{
+    color: rgb(40, 44, 46);
+    background-color: white;
+    border-radius: 50%;
+}

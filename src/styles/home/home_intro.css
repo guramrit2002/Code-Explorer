@@ -45,3 +45,10 @@
     background-color:rgb(84, 84, 84)
 }
 
+.heading{
+    font-weight: 600;
+}
+.short-text{
+    font-weight: 400;
+    line-height: 25px;    
+}

@@ -1,0 +1,38 @@
+.documentation{
+    max-height: fit-content;
+    min-height: 80vh;
+    width: 90%;
+    border-radius: 20px;
+    /* padding: 1rem 2rem; */
+    margin: 1rem;
+}
+.documentation p {
+    color: rgb(140, 140, 140);
+}
+.about{
+    padding: 2rem 0;
+    width: 90%;
+}
+.title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 1rem;
+    flex-direction: column;
+    width: 90%;
+    max-height: fit-content;
+    min-height: 40vh;
+    border: solid black 2px;
+    border-radius: 20px;
+}
+.prop{
+    height: fit-content;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    width: 30%;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}

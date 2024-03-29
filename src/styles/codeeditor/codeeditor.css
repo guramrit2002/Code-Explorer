@@ -1,0 +1,28 @@
+
+.provider{
+    display: flex;
+    width: 90%;
+    min-height: 80vh;
+    height: fit-content;
+    margin: 2.5rem 0;
+    flex-direction: column;
+}
+.live-editor{
+    min-height: 80vh;
+    height: fit-content;
+    background-color: rgb(40, 44, 46);
+}
+
+.live-editor{
+    width: 50%;
+}
+.preview{
+    background-color: white;
+    width: 50%;
+}
+.container{
+    height: fit-content;
+    width: inherit;
+    display: inherit;
+    border: rgb(40, 44, 46) solid 2px;
+}
