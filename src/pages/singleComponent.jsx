@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import '../styles/codeeditor/codeeditor.css'
 import '../styles/singleComponents/singleComponent.css'
-import { useState,useEffect } from "react";
+import { useState } from "react";
 import Documents from "../components/documents";
 import Design from "../components/design";
 import SourceCode from "../components/sourcecode";
@@ -20,8 +20,9 @@ function SingleComponent() {
     };
 
     const storedComponent = localStorage.getItem('selectedComponent');
+    console.log(storedComponent)
     const parsedComponent = JSON.parse(storedComponent);
-    
+    console.log(parsedComponent)
     return (
         <>
             <Navbar />
@@ -38,9 +39,10 @@ function SingleComponent() {
                         </div>
                 </div>
                 <div className="main">
+                {console.log(parsedComponent)}
                 {activeTab === 'tab1' && <Documents component={parsedComponent} />}
                 {activeTab === 'tab3' && <SourceCode/>}
-                {activeTab === 'tab4' && <Design/>}
+                {activeTab === 'tab4' && <Design component={parsedComponent}/>}
                 </div>
             </section>
             <Footer />
